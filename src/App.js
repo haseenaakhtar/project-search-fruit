@@ -22,6 +22,7 @@ const App = () => {
         <li>apple</li>
         <li>banana</li>
         <li>charry</li>
+        
       </ul>
      Enter Fruit Name: <input value={fruit} type="text" onChange={(e) => { setFruit(e.target.value) }} />
       <button onClick={() => fruitefun()}>search</button>
